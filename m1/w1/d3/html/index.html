@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzeria| Magnatv a pizz</title>
+</head>
+<body>
+    
+    <h1>Ordina la tua pizza</h1>
+
+    <form method="get" action="pagina-destinazione.php">
+        <select name="gusto" required>
+            <option>--scegli la tua pizza-- </option>
+            <option value="Margerita">Margherita</option>
+            <option value="Diavola">Diavola</option>
+            <option value="Capricciosa">Capricciosa</option>
+         
+        </select>
+
+        <h3>Tipo pizza</h3>
+        <label for="tipo-sottile">Sottile:</label>
+
+
+       <input id="tipo-sottile" type="radio" name="tipo" checked>
+        <label for="tipo-spesso">Spessa:</label>
+
+
+       <input id="tipo-spesso" type="radio" name="tipo" checked>
+
+       
+
+       <h3>Aggiunte</h3>
+       bufala<input type="Checkbox" name="aggiunta-buf">
+       prosciutto<input type="Checkbox" name="agg-pro">
+       funghi<input type="Checkbox" name="Agg-fung">
+       <hr>
+       <h3>Dati</h3>
+
+       <label for="nome">Nome:</label>
+       <input id="nome" type="text" placeholder="Scrivi qui">
+       <input type="submit" value="ordina qui">
+
+
+    </form>
+
+</body>
+</html>
