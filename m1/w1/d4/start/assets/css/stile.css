@@ -1,0 +1,98 @@
+/* IMPOSTAZIONI GENERALI */
+body{font-family: 'Poppins', sans-serif;}
+h1, h2, h3, h4, h5{font-weight: bold;}
+h1{font-size: 2rem;
+margin-bottom: 5px;}
+h2{font-size: 1.5rem;}
+h3{font-size: 1.3rem;}
+body{background-image: url(/m1/w1/d4/start/assets/img/sfondo.png);
+background-attachment: fixed;}
+header, main, footer{box-shadow: 0 0 25px 5px rgba(0, 0, 0, 0.479);}
+
+/* HEADER */
+header{
+    text-align: center;
+    background: rgb(90,227,192);
+background: linear-gradient(188deg, rgba(90,227,192,1) 0%, rgba(101,196,213,1) 50%, rgba(2,84,255,1) 100%);
+    
+margin: 20px;
+padding: 20px;}
+header li{list-style: none;}
+header a{color: aliceblue;}
+header p{color: aliceblue;}
+iframe{border-radius: 10px;
+}
+
+header li::before { 
+    content: "\21db";
+}
+
+header li::after { 
+    content: "\21da";
+}
+article h1{margin-bottom: 30px;}
+
+article p:first-of-type {opacity: 0.6;
+    margin-bottom: 30px;
+}
+
+article ul{margin-bottom: 30px;}
+/* MAIN */
+
+
+main{margin: 20px;
+padding: 20px;
+background-color: whitesmoke;
+}
+
+
+
+/* TABELLE */
+
+thead{
+    background-color: rgb(111, 111, 202);
+    color: antiquewhite;
+}
+th{padding: 3%;
+text-align: center;}
+td{padding: 1%;
+text-align: center;}
+/* FORM */
+article section{
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(214, 214, 214);
+    
+}
+tr:nth-of-type(2){background-color: rgb(172, 170, 170);}
+tr:nth-of-type(4){background-color: rgb(172, 170, 170);}
+
+.video {
+    background-color: blue;
+}
+
+article section h2 {text-align: center;}
+/* ELEMENTI NELL' ASIDE */
+aside{
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(214, 214, 214);
+}
+aside div{
+    margin: 5 5;
+    padding: 10 10 ;
+    border-color: black;
+    border: 1px;
+}
+
+
+/* FOOTER */
+footer{margin: 20px;
+    padding: 20px;
+    color: antiquewhite;
+    background: rgb(90,95,227);
+background: linear-gradient(127deg, rgba(90,95,227,1) 0%, rgba(41,132,182,1) 74%, rgba(0,1,60,1) 100%);;
+    
+}
+footer a{color: rgb(236, 26, 208);}
+footer p{text-align: center;}
