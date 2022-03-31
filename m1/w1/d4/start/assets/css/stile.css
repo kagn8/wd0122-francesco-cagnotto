@@ -67,9 +67,6 @@ article section{
 tr:nth-of-type(2){background-color: rgb(172, 170, 170);}
 tr:nth-of-type(4){background-color: rgb(172, 170, 170);}
 
-.video {
-    background-color: blue;
-}
 
 article section h2 {text-align: center;}
 /* ELEMENTI NELL' ASIDE */
