@@ -115,7 +115,9 @@
     footer{background-color: #25a2c3;
     text-align: center;
     color: white;
-    padding-bottom: 25px;}
+    padding-bottom: 25px;
+    padding: 25px;
+    margin-top: 25px;}
 
     footer a {color: white;}
     
