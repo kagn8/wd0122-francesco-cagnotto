@@ -54,6 +54,7 @@
     .bottone{background-color: #f04c2f;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
+    margin-top: 30px;
     padding-top: 15px;
     padding-bottom: 15px;
     padding-left: 50px;
@@ -95,14 +96,14 @@
 
     aside article{text-align: center;
     margin: 20px;
-    border: #929292;
+    border: #dee1e3;
     border-style: solid;
     margin-top: 25px;
     border-width: 1px;
     margin-bottom: 25px;}
 
 aside article img {width: 100%;
-    border: #929292;
+    border: #dee1e3;
     border-style: solid;
     border-width:1px;
     border-radius: 1px;}
@@ -115,6 +116,7 @@ aside article img {width: 100%;
     margin-bottom: 25px;}
 
     footer a {color: white;}
+    
     hr{ color: white;
     width: 70%;
     margin-top: 25px;
