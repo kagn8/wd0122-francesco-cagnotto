@@ -71,8 +71,7 @@
 
 /*div-main*/
 
-    div{padding-top:;
-    text-align: center;
+    div{text-align: center;
     padding-bottom: 35px;}
 
 /*immagine tonda*/
@@ -98,18 +97,17 @@
 /*aside*/
 
     aside article{text-align: center;
-    margin: 20px;
+    margin: 10%;
     border: #dee1e3;
     border-style: solid;
     margin-top: 25px;
     border-width: 1px;
-    margin-bottom: 25px;}
+    border-bottom-left-radius:10px ;}
 
     aside article img {width: 100%;
     border: #dee1e3;
     border-style: solid;
-    border-width:1px;
-    border-radius: 1px;}
+    border-width:1px;}
 
     article aside p{padding: 15%;}
 
