@@ -1,0 +1,121 @@
+/*stili generali*/
+
+    body{color: #393d41;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.65;}
+
+/*titoli*/
+
+    h1{color: #25a2c3;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+    font-weight: 700;
+    font-size: 2.8rem;
+    padding-top: 35px;
+    padding-bottom: 20px;}
+
+    h3{color: #25a2c3;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+    font-weight: 700;
+    padding-bottom: 15px;}
+
+    h2{color: white;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+    font-weight: 700;
+    padding-bottom: 15px;
+    font-size: 2.4rem;}
+
+/*header*/
+
+    header{text-align: center;
+    background-color: black;
+    padding: 50px;}
+
+/*main*/
+
+    section{text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 40px;
+    margin-bottom: 35px;}
+
+
+/*bottone*/
+
+    .bottone{background-color: #f04c2f;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 5px;}
+
+    .bottone a{text-decoration: none;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 30px;}
+
+/*div-main*/
+
+    div{padding-top:;
+    text-align: center;
+    padding-bottom: 35px;}
+
+/*immagine tonda*/
+
+    .note{border-radius: 100%;}
+
+/*banner arancio*/
+    
+    .orange{height: auto;
+    width: 100%;
+    background-color: #f04c2f;
+    color: white;
+    padding-top: 35px;
+    margin-bottom: 50px;}
+
+    blockquote{margin-bottom: 15px;
+    font-style: italic;}
+
+    cite{font-size: 1.2em;}
+
+    .orange p{font-size: 0.8em;}
+
+/*aside*/
+
+    aside article{text-align: center;
+    margin: 20px;
+    border: #929292;
+    border-style: solid;
+    margin-top: 25px;
+    border-width: 1px;
+    margin-bottom: 25px;}
+
+aside article img {width: 100%;
+    border: #929292;
+    border-style: solid;
+    border-width:1px;
+    border-radius: 1px;}
+
+/*footer*/
+
+    footer{background-color: #25a2c3;
+    text-align: center;
+    color: white;
+    margin-bottom: 25px;}
+
+    footer a {color: white;}
+    hr{ color: white;
+    width: 70%;
+    margin-top: 25px;
+    margin-bottom: 25px;}
