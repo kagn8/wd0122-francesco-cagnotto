@@ -1,0 +1,99 @@
+iframe{height: 40vw;}
+
+@media screen and (max-width: 544px) {
+
+    .tabella {
+        display: none;
+    }
+  
+    body{padding: 6vh 0% 6vmax 0%;}
+}
+
+
+@media screen and (min-width: 545px) {
+    
+    table{
+        display: none;}
+    
+    body{font-size: 1.5rem;
+        line-height: 1.6;}
+        footer{font-size: 1.5rem;
+            line-height: 1.6;}
+
+    
+   
+    
+}
+@media screen and (min-width: 510px) {
+    body{font-size: 1.7rem;
+        line-height: 1.9;}
+        footer{font-size: 1.7rem;
+            line-height: 1.9;}    
+}
+
+/*tablet*/
+
+@media screen and (min-width: 768px) {
+    body{font-size: 1.8rem;
+        line-height: 2;
+    padding: 6vh 7vw 6vh 7vw;} 
+     .blocco{
+         width: 20rem;}
+         .bianchi{
+             width: 20rem;}
+             .grigini{
+                 width: 20rem;}
+                
+                footer{font-size: 1.8rem;
+                    line-height: 2}}
+                /*desktop*/
+
+@media screen and (min-width: 1024px) {
+    body{font-size: 2rem;
+        line-height: 2.1;
+    padding: 6vh 10vw 6vh 10vw;}
+    .video{text-align: center;
+        display: inline;
+        width: 70vw;}
+        footer{font-size: 2rem;
+            line-height: 2.1;}
+      
+}
+
+/*4K*/
+
+@media screen and (min-width: 1582px) {
+    body{font-size: 2.2rem;
+        line-height: 2.2;
+    padding: 10vh 10vw 10vh 10vw;}
+    .video{text-align: center;
+        display: inline;
+        width: 70vw;}
+        .blocco{
+            width: 21rem;}
+            .bianchi{
+                width: 21rem;}
+                .grigini{
+                    width: 21rem;}
+                    footer{font-size: 2.2rem;
+                        line-height: 2.2;}
+    
+      
+
+}
+@media print {
+    body{background-image: none;padding: 0%;}
+iframe{display: none;}
+section{display: none;}
+.testo{display: none;}
+aside{display: none;}
+footer{display: none;}
+header a {display: none;}
+.tabella{display: none;}
+body{font-size: 1.3rem;
+    line-height: 1.4}
+
+    
+}
+
+
