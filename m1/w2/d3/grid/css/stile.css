@@ -1,0 +1,13 @@
+#container{
+    display: grid;
+    background-color: blue;
+    grid-template-columns: 1fr 3fr; /*numero colonne*/
+    grid-template-rows: 1fr 2fr; /*numero righe*/
+
+}
+
+.blocco{
+    background-color: aqua;
+    border: 1px solid red;
+    font-size: 4rem;
+}
