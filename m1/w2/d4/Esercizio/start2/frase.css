@@ -1,0 +1,62 @@
+#testoAlternato{
+   position: relative; 
+    
+padding: 10%;
+width: 100%;
+}
+
+.parole{
+   margin-left: 2px;
+    
+
+}
+
+.paroline{
+    position: absolute;
+   transform: translateY(-15px);
+   opacity: 0;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+.p1{
+    animation-name: p1;
+    /* animation-delay: 0.5s; */
+    transform: translate(0);
+}
+
+.p2{
+animation-name: p2;
+}
+
+.p3{
+    animation-name: p3;
+}
+
+@keyframes p1{
+0%{opacity: 1; transform: translateY(0);}
+20%{opacity: 0.5; transform: translateY(15px); }
+40%{opacity: 0;  }
+60%{opacity: 0; }
+80%{opacity: 0; }
+100%{opacity: 0.5; transform: translateY(-15);}
+    
+}
+@keyframes p2{
+    0%{opacity: 0;}
+    20%{opacity: 0.5; transform: translateY(-15);}
+    40%{opacity: 1; transform: translateY(0); }
+    60%{opacity: 0.5; transform: translateY(15px); }
+    80%{opacity: 0; }
+    100%{opacity: 0; }
+
+}
+@keyframes p3{
+    0%{opacity: 0; }
+    20%{opacity: 0; }
+    40%{opacity: 0; }
+    60%{opacity: 0.5; transform: translateY(-15);}
+    80%{opacity: 1; transform: translateY(0); }
+    100%{opacity: 0.5; transform: translateY(15px); }
+
+}

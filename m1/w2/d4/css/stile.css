@@ -1,0 +1,94 @@
+
+.trans{
+    width: 100px;
+    height: 100px;
+    transition: width 1s;
+    background-color: green;
+}
+/* evitare height in transition */
+
+.trans:hover{
+    width: 500px;
+}
+
+.title{
+    font-size: 100px ;
+    color:rgb(255, 255, 255);
+    position: absolute;
+    left: 104px;
+    z-index: 2;
+    
+}
+.padre{
+    display: relative;
+    /* display: inline-block; */
+}
+
+.anim{
+    width: 200px;
+    height: 200px;
+   
+    background-color: red;
+    animation-name: allarga;
+    animation-duration:2.5s;
+    animation-iteration-count: infinite;
+    background-image: url("../../../w1/d1/gattino.jpeg");
+    background-repeat:no-repeat;
+background-size:contain;
+background-position:center;
+}
+
+ /* @keyframes allarga{
+    from {width:200px; height:200px; }
+    to {width: 400px; height: 300px; font-size: 100px; color:rgb(255, 255, 255); background-color:black; background-image:url("../../../w1/d1/Carmine.jpg") }
+}  
+
+
+.blocchetti{
+    height:200px;
+    width:200px;
+    background-color: red;
+    animation-iteration-count: infinite;
+    
+}
+
+.c1{
+    animation-name: colore;
+    animation-duration:1s;
+}
+
+@keyframes colore{
+    0%{background-color: red;}
+    50%{background-color: rgb(21, 255, 0);}
+    100%{background-color: red;}
+}
+
+.c2{
+    animation-name: sposta, colore;
+    animation-duration: 3s, 0.5s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes sposta{
+    0%{margin-left: 0;}
+    50%{margin-left: 500px;}
+    100%{margin-left: 0;}
+}
+
+
+.c3{
+    animation-name: sposta, colore, ruota;
+    animation-duration: 2s, 1s, 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes ruota{
+    0%{transform: rotate(0deg);}
+    50%{transform: rotate(90deg);}
+    100%{transform: rotate(0deg);}
+} 
+
+provare box-shadow*/
+
+
