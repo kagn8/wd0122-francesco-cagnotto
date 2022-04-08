@@ -1,0 +1,232 @@
+/* IMPOSTAZIONI GENERALI */
+body{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 1.5rem;
+    line-height: 1.8;
+}
+h1{font-size: 4rem;
+  font-style: bold;}
+h2{font-size: 3.5rem;}
+h3{font-size: 2.5rem;}
+h4{font-size: 2rem;}
+p{margin: 1rem;}
+
+
+.pulsante{
+    background: rgb(161,226,240);
+background: -moz-linear-gradient(90deg, #6cc1e2 0%, #392f7a 100%);
+background: -webkit-linear-gradient(90deg, #6cc1e2 0%, #392f7a 100%);
+background: linear-gradient(90deg, #6cc1e2 0%, #392f7a 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#a1e2f0",endColorstr="#2864ab",GradientType=1);
+padding: 1rem 2rem 1rem 2rem;
+border: 1px none;
+border-radius: 3%;
+overflow: hidden;
+color: white;
+text-decoration: none;
+font-size: 1.9rem;}
+
+footer .pulsante{width: 100%;
+    padding: 10px;
+    display: inline-block;
+    }
+.relative{
+    position: relative;
+}
+
+a { color: #e42424;}
+
+
+/* HEADER */
+
+header{padding: 1em;
+box-shadow: 0 2px 15px #d3d3d3 ;
+position: sticky;
+top: 0;
+z-index: 2;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+background-color: white;}
+
+
+/* nav */
+
+
+nav{text-align: right;}
+nav a{text-decoration: none;
+    color: black;
+    margin-bottom: 2em;}
+.logo{
+    height: 43.19px;}
+
+.grande {display: none;}
+
+#menu{
+    height: 0;
+    overflow: hidden;
+    transition: height 0.5s;
+}
+
+#apri-menu{
+   display: none;
+}
+
+input:checked + #menu{
+    height: 200px;
+}
+
+/* MAIN */
+
+.scrivici{
+    background-color: #0c0633;
+    color: white;
+    text-align: center;
+    padding: 5vh;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    background-size: cover;
+    
+}
+
+.epic{text-align: left;
+background-image: url(../images/banner.jpg);
+background-size: cover cover;
+background-repeat: no-repeat;
+background-position: center;
+}
+
+/* articoli */
+
+article{text-align: center;
+padding: 1em;}
+
+.Orange{color: #e42424;
+font-size: 4rem;
+}
+.Orangini{margin-right: 1rem;}
+
+article img{
+    margin-bottom: 15px;
+}
+/* FOOTER */
+
+footer{
+    background-color: rgb(238,238,238);
+    padding: 4rem;
+    
+}
+address{
+    margin-top: 100px;
+    text-align: center;}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    /* justify-content: flex-start; */
+    align-content: center;
+    align-items: center;
+    gap: 100px;
+    }
+
+.footer:nth-child(1) {
+    order: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+    }
+
+.footer:nth-child(2) {
+    order: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+    }
+
+.footer:nth-child(3) {
+    order: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+    }
+
+
+/* RESPONSIVE */
+
+@media screen and (min-width: 780px){
+    .piccola{display: none;}
+    .grande{display: inline;}
+    header{
+        display: flex;
+    flex-direction: row;
+    justify-content: space-between;}
+    .grande a{padding: 1rem;
+    color: gray;}
+    .grande .pulsante {color: white;}
+
+    body{font-size: 1.2rem};
+
+    .container{
+        
+            display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    margin-top: 15px;}
+
+    .container2{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;}
+
+
+    .footer{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: center;
+            align-items: center;
+            gap: 100px;
+            }
+
+            h1{font-size: 3.5rem;
+                font-style: bold;}
+              h2{font-size: 3rem;}
+              h3{font-size: 2rem;}
+              h4{font-size: 1.5rem;}
+
+              .Orange{
+                font-size: 3.5rem;
+                }
+
+    
+    }
+
+    @media screen and (min-width: 1200px){
+        header{padding: 2% 15% 2% 15%;}
+        article{padding: 2% 15% 2% 15%;}
+        /* section{padding: 2% 15% 2% 15%;}
+        footer{padding: 2% 15% 2% 15%;} */
+        body{font-size: 1rem;}
+
+        h1{font-size: 2.5rem;
+            font-style: bold;}
+          h2{font-size: 2rem;}
+          h3{font-size: 1.5rem;}
+          h4{font-size: 1.2rem;}
+        
+          .Orange{
+            font-size: 3rem;
+            }
+          
+
+       
+    }
+    
+    input[type="email"]{color: #e42424; 
+        box-sizing: border-box;
+
+        padding: 10px;
+        /* padding-left:10px; */
+    width: 100%;}
+    /* input[type="email"]:focus{outline-color: green;} */
+
+
+
