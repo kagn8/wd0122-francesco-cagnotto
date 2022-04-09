@@ -316,7 +316,7 @@ address{
           
             .dim{ width: calc(100vw - 270%);
        
-    }
+    }}
     
 /* ho un problema a dimensionare bene anche i form */
 
@@ -326,7 +326,7 @@ address{
         /* padding-left:10px; */
         width: 100%;}
 
-        table  {
+        .tab-pic  {
             width: calc(100% - 20px);
             background-color: #FFFFFF;
             border-collapse: collapse;
@@ -353,4 +353,4 @@ address{
 
        .BB{
            font-weight: 700;
-       }}
+       }
