@@ -13,6 +13,7 @@ p{margin: 1rem;}
 .center{text-align: center;}
 #tab-none{text-align: left;}
 
+
 img{height: 300px;
     width: 300px;
 }
@@ -28,7 +29,10 @@ border-radius: 3%;
 overflow: hidden;
 color: white;
 text-decoration: none;
-font-size: 1.9rem;}
+font-size: 1.9rem;
+
+    white-space: nowrap;
+}
 
 .epic .pulsante{box-shadow: 0px 0px 17px 8px rgba(0, 0, 0, 1);
 animation-name: epic;
@@ -61,7 +65,8 @@ footer .pulsante{
     position: relative;
     max-height: 86.72px ;
     max-width: calc(100% - 66px);
-    }
+    text-align: center;
+}
 
 /* .abs{display: block;}  */
 
@@ -268,6 +273,8 @@ address{
         align-items: center;}
     
         .flex-tab{display: flex;}
+
+        .dim{width: 400px;}
   
 
     .footer{
@@ -277,6 +284,7 @@ address{
             justify-content: center;
             align-items: center;
             gap: 100px;
+           
             }
 
             h1{font-size: 3.5rem;
@@ -286,10 +294,13 @@ address{
               h4{font-size: 1.5rem;}
 
               .Orange{
-                font-size: 3.5rem;
+                font-size: 2.5rem;
                 }
                 
+                .dim{width: 400px;}
                 
+              
+               
     
     }
 
@@ -314,7 +325,7 @@ address{
             font-size: 3rem;
             }
           
-            .dim{ width: calc(100vw - 270%);
+            .dim{ width: 600px;
        
     }}
     
