@@ -7,20 +7,6 @@ function aggiungiNumero(bottone){
 
     display.value += numero
 
-    var d = document.getElementById("div1");
-   d.className =  'num bordo';
-    
- 
-
-    // if(d.className == 'num') {
-    //     d.className = 'num bordo';
-    // }
-    // else{
-    //     d.className = 'num'
-    // }; 
-
-
-   
 }
 
 function risultato(){
