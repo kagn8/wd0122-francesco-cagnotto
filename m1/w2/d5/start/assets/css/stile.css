@@ -93,14 +93,14 @@ background-color: white;}
 
 /* nav */
 
+.logo{
+    height: 43.19px;
+width: auto;}
 
 nav{text-align: right;}
 nav a{text-decoration: none;
     color: black;
     margin-bottom: 2em;}
-.logo{
-    height: 43.19px;
-width: auto;}
 
 .grande {display: none;}
 
