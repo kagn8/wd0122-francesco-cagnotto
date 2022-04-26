@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+
+        let frutto = "banana"
+
+        switch (frutto) {           //switch tipo if ma si impostano i casi
+            case "banana":
+                console.log("banane 3, 5€"); //esecuzione
+            break;    //break implica che prende solo questa condizione (se vera) senza implicare le altre
+            case "mele":
+            console.log("mele 30, 5€");
+            break;
+            default:
+                console.log("siamo spiacenti non abbiamo" + frutto) //nel caso non si verifichi alcun caso
+        }
+
+        let x = 0; //variabile
+
+        while (x<10) {  //condizione di avvio
+            console.log("test n*" + x) //cosa deve fare
+            x++ //condizione di uscita
+        }
+
+        let pizze = ["margherita", "capricciosa" , "diavola"] //dichiariamo un array
+        let y=0; //settiamo una var con il numero + basso di array
+
+        while (y <= 2) { //impostiamo che il ciclo parta se y è minore del numero massimo dell'array
+            console.log (pizze[y]); //facciamo console log degli elementi di array dove y rappresenta l'elemento
+            y++ //variabile di uscita che farà aumentare l'elemento da 0 fino a 2 in quanto se y diventa maggiore di 2 il ciclo non si attiva
+            
+        }
+
+
+        // do-while
+
+        //let pizze = ["margherita", "capricciosa" , "diavola"] //dichiariamo un array
+
+        let h=0; //variabile numerica
+
+            do{ //esegue almeno una volta anche se falsa
+                console.log("test n*" + h);
+                h++
+            }
+
+        while (y < 2) // qui settiamo la condizione del do, in questo caso falsa, quindi si esegue solo una volta
+
+
+
+
+
+
+        //cicli for
+
+
+        for(let i= 0; i < 10 ; i++){ //creazione var; condizione; incremento condizione
+            console.log(i); //esecuzione
+        }
+
+        //forIn cicla oggetto
+
+
+
+        //for of (array)
+
+        let nome= "gianpippo" //esegue elemento per elemento
+        for (let l of nome){
+            document.write("<div>"+ l +"</div>")
+        }
+
+        //for in (ogetti)
+
+        let user = {
+            colore : "rosso",
+            colore2 : "giallo",
+            colore3 : "verde",
+        }
+
+        for(let prop in user){
+            document.write("<div>" + prop + ":" + user[prop] + "</div>")
+        }
+
+
+
+        //metodi array
+
+
+        //forEach
+
+        let pizzette = ["margheritina ", "capricciosina " , "diavolina "] //dichiariamo un array
+
+        pizzette.forEach(function(elemento, i) { //cicla un array 
+            document.write(elemento)
+        });
+
+
+        //rivedere map
+
+
+        //filter
+
+        let num = [1,2,3,4,5]
+        let filtro = num.filter(el => el > 2) //metodo filter vado ad escludere elementi da un array
+        console.log(filtro);
+
+
+        //reduce 
+
+        let sum = num.reduce((precedente, attuale) => precedente + attuale)
+        console.log(sum);
+    </script>
+
+
+
+
+</body>
+</html>
