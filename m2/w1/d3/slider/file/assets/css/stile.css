@@ -1,0 +1,49 @@
+body{background-color: black;}
+.rotaz{
+    border: 1px solid white;
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    left: calc(50% - 150px);
+    top: calc(50% - 150px);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    perspective: 800px;
+    perspective-origin: 50%;
+}
+.img{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: 2s;
+}
+.img div{
+    height: 300px;
+    width: 300px;
+    position: absolute;
+}
+
+.frontale{
+    transform: translateZ(150px);
+    
+}
+
+.destra{
+    transform: rotateY(-270deg) translateX(150px);
+    transform-origin: 100% ;
+}
+
+.retro{
+    transform: rotateY(180deg) translateZ(150px);
+    
+}
+
+.sinistra{
+    transform: rotateY(270deg) translateX(-150px);
+    transform-origin: 0;
+}
