@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "stile.css",
+	"sources": [
+		"../sass/stile.scss"
+	],
+	"sourcesContent": [
+		"body { background-color: green;}"
+	],
+	"names": [],
+	"mappings": ";AAAA,AAAA,IAAI,CAAC;EAAE,gBAAgB,EAAE,KAAK,GAAG"
+}
