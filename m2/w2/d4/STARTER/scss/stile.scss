@@ -1,0 +1,78 @@
+@function set-color-pro($sfondo){
+    @if(lightness($sfondo) >= 50){
+        @return black;
+    }@else{
+        @return white;
+    }
+}
+
+$primario : rgb(15, 15, 129);
+$secondario : rgb(110, 110, 224);
+
+@mixin flex {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+@mixin bottone {
+    border: 2px outset gray;
+    color: white;
+    background-color: orange;
+    padding: 10px;
+}
+
+
+@mixin test-spec {
+    font-style: italic;
+    text-decoration: none;
+}
+body{
+    font-family: 'Press Start 2P', cursive;
+}
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+#main{
+    @include flex;
+    padding: 3%;
+    
+        article{
+            flex-basis: 75%;
+        }
+        aside{
+            flex-basis: 25%;
+        }
+        a{
+            @include test-spec;
+            color: orange;
+        }
+        button{
+            @include bottone;
+        }
+}
+
+header{
+    background-color: $primario;
+    height: 50px;
+    border-radius: 15px;
+    padding: 4px;
+    border: 3px ridge white;
+   ul{
+       li{ display: inline-block;
+        margin-right: 10px;
+           a{
+                color: set-color-pro($primario);
+                // color: white;
+                @include test-spec;
+           }
+       }
+   }
+}
+
+footer{background-color: $secondario;
+height: 70px;}
+
+cite{
+    @include test-spec;
+    margin: 10px;
+}

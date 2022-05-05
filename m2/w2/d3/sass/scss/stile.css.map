@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAGA,AAAA,IAAI,CAAA;EACA,gBAAgB,EAJb,KAAK;CAKX",
+    "sources": [
+        "stile.scss"
+    ],
+    "names": [],
+    "file": "stile.css"
+}

@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+body {
+  font-family: 'Press Start 2P', cursive; }
+
+#main {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 3%; }
+  #main article {
+    flex-basis: 75%; }
+  #main aside {
+    flex-basis: 25%; }
+  #main a {
+    font-style: italic;
+    text-decoration: none;
+    color: orange; }
+  #main button {
+    border: 2px outset gray;
+    color: white;
+    background-color: orange;
+    padding: 10px; }
+
+header {
+  background-color: #0f0f81;
+  height: 50px;
+  border-radius: 15px;
+  padding: 4px;
+  border: 3px ridge white; }
+  header ul li {
+    display: inline-block;
+    margin-right: 10px; }
+    header ul li a {
+      color: white;
+      font-style: italic;
+      text-decoration: none; }
+
+footer {
+  background-color: #6e6ee0;
+  height: 70px; }
+
+cite {
+  font-style: italic;
+  text-decoration: none;
+  margin: 10px; }
