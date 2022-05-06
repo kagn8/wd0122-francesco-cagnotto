@@ -1,0 +1,71 @@
+
+.wrapper .outer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .wrapper .card{
+    background: #fff;
+    width: 400px;
+    height:100px;
+    display: flex;
+    align-items: start;
+    justify-content:center;
+    padding: 10px;
+    opacity: 0;
+    overflow:hidden;
+    pointer-events: none;
+    position: absolute;
+    justify-content: space-between;
+    border-radius: 6px;
+    box-shadow: 0px 10px 15px rgba(0,0,0,0.1);
+    animation: animate 15s linear infinite;
+    animation-delay: calc(3s * var(--delay));
+  }
+  .outer:hover .card{
+    animation-play-state: paused;
+  }
+  .wrapper .card:last-child{
+    animation-delay: calc(-3s * var(--delay));
+  }
+  @keyframes animate {
+    0%{
+      opacity: 0;
+      transform: translateY(100%) scale(0.5);
+    }
+    5%, 20%{
+      opacity: 0.4;
+      transform: translateY(100%) scale(0.7);
+    }
+    25%, 40%{   
+      opacity: 1;
+      pointer-events: auto;
+      transform: translateY(0%) scale(1);
+    }
+    45%, 60%{
+      opacity: 0.4;
+      transform: translateY(-100%) scale(0.7);
+    }
+    65%, 100%{
+      opacity: 0;
+      transform: translateY(-100%) scale(0.5);
+    }
+  }
+  
+  
+  .image img{
+      height: 80px;
+    width: 80px;
+    border-radius:6px;
+  }
+  
+  .content p {
+      font-size:9px;
+      font-weight:400;
+  }
+  
+  .ratings i{
+      font-size:10px;
+      color:orange;
+  }
+  

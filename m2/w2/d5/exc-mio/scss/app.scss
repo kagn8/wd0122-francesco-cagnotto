@@ -1,0 +1,95 @@
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+@import "../node_modules/bootstrap-icons/font/bootstrap-icons.css";
+@import "function.scss";
+@import "testimonianze.scss";
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&display=swap');
+@mixin sfondo {
+    background: rgb(91,12,12);
+    background: -moz-radial-gradient(circle, rgba(91,12,12,1) 0%, rgba(0,101,254,1) 100%);
+    background: -webkit-radial-gradient(circle, rgba(91,12,12,1) 0%, rgba(0,101,254,1) 100%);
+    background: radial-gradient(circle, rgba(91,12,12,1) 0%, rgba(0,101,254,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#5b0c0c",endColorstr="#0065fe",GradientType=1);
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    box-shadow: -12px 12px 12px -1px rgba(0,0,0,0.76);
+}
+@mixin linki {
+    text-decoration: none;
+}
+
+@mixin backeground {
+   
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+$colore-footer-comodissime-le-variabili-di-sass: #002387;
+
+*{
+    font-family: 'ABeeZee', sans-serif;
+}
+@mixin pulsanti{
+    background-color: $colore-footer-comodissime-le-variabili-di-sass;
+    color: dark-mode($colore-footer-comodissime-le-variabili-di-sass);
+    border-radius: 15px;
+    transition: 0.3s;
+    &:hover{
+        background-color: orange;
+        color: dark-mode(orange);
+        box-shadow: 1px 2px 14px 8px #000000;
+    }
+}
+
+#nav-principale{
+    @include sfondo;
+    a{@include linki; color: white; }
+    position: absolute;
+    z-index: 3;
+    width: 97%;
+    
+    .dispy{
+        display: none;
+    }
+    button{
+        @include pulsanti;
+        
+    }
+}
+
+
+
+#sfondo{
+        
+        @include backeground;
+        background-image: url("../img/pexels-aleksandar-pasaric-325185.jpg");
+        // position: absolute;
+        // top: 0;
+        button{
+            @include pulsanti;
+            
+        }
+        
+}
+
+.spaziale{
+    height: 15vw;
+}
+
+
+.row{div{img{width: 100px;}}}
+
+footer{ 
+    background-color: $colore-footer-comodissime-le-variabili-di-sass;
+    a{
+        color: dark-mode($colore-footer-comodissime-le-variabili-di-sass);
+    }
+}
+.wrapper{
+    
+    
+        height: 200px;
+        margin-top: 100px;
+        
+    
+}
