@@ -99,6 +99,7 @@ class Vodafone implements Ismartphone{
 
 console.log("Esistono 2 utenti, Giuseppe che ha come gestore Tim e Carlo che ha Vodafone, e quindi un piano tariffario differente. utilizza i metodi dei 2 utenti, ricarica(come parametro va messa la somma che vuoi aggiungere al tuo credito attuale),inviaSMS(specificare il numero di sms che vuoi inviare come parametro), oppure visualizza il tuo credito attuale con getcredito() e gli sms che hai inviato con getSmsInviati() inoltre c'è il metodo azzeraSms() che azzera la conta dei messaggi inviati finora (questa operazione come richiesto dalla traccia non ha alcun effetto sul credito). Esempio:(Carlo.inviaSms(1). Buon divertimento.) ");
 
+console.log("Sono present degli esempi già compilati nel file ts ma commentati, si possono decommentarli per verificare la validità dei metodi");
 
 //se non ti va di provarli in console decommenta questi esempi
 const Giuseppe = new Tim()
