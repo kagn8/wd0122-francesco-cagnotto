@@ -2,7 +2,7 @@ interface Ismartphone{
     cerditoDiPartenza:number;
     costoPerSms:number;
     smsInviati:number;
-    ricarica:number;
+    // ricarica:number;
     Ricarica(a:number):void;
     InviaSms(a:number):void;
     getSmsinviati():number;
@@ -15,12 +15,12 @@ class Tim implements Ismartphone{
     cerditoDiPartenza: number = 10;
     costoPerSms: number = 0.17;
     smsInviati: number;
-    ricarica: number;
+    // ricarica: number;
     creditoAttuale:number;
 
     constructor(){
         this.smsInviati = 0
-        this.ricarica = 0
+        // this.ricarica = 0
         this.creditoAttuale= this.cerditoDiPartenza
     }
 
@@ -57,12 +57,12 @@ class Vodafone implements Ismartphone{
     cerditoDiPartenza: number = 5;
     costoPerSms: number = 0.20;
     smsInviati: number;
-    ricarica: number;
+    // ricarica: number;
     creditoAttuale:number;
 
     constructor(){
         this.smsInviati = 0
-        this.ricarica = 0
+        // this.ricarica = 0
         this.creditoAttuale= this.cerditoDiPartenza
     }
 
