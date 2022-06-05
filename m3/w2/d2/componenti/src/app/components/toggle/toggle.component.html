@@ -1,0 +1,12 @@
+<p *ngIf="!active">bool</p>
+<p *ngIf="a < 1">number</p>
+
+<hr>
+
+<b *ngIf="active; then activo else activo1">
+    
+</b>
+<ng-template #activo> <b>non passare</b> </ng-template>
+<ng-template #activo1> <b>E pass pass</b> </ng-template>
+
+<button (click)="active = !active">Cane</button>{{active}}

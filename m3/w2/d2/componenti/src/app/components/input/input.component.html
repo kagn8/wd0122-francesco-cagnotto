@@ -1,0 +1,4 @@
+<input [type]="type" (keyup)="cambiaNome($event)">{{nome}}
+<button (click)="mostra()" class="btn btn-warning"
+[innerText]="type == 'password'?'mostra password' :'nascondi password' "
+>mostra password</button>

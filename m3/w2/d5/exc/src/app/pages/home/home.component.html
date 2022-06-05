@@ -1,0 +1,21 @@
+<div class="flex"><h1>Esercizio con i to-do in angular</h1></div>
+<div class="container">
+    <div class="form">
+        <input type="text" [(ngModel)]="inputTodo" placeholder="inserisci titolo">
+        <select name="" id="" [(ngModel)]="selectTodo">
+            <option value="" selected disabled>Incompleta</option>
+            <option value="true">Completa</option>
+        </select>
+        <button (click)="addNeww()">Crea nuovo</button>
+    </div>
+</div>
+<div class="flex">
+<h1>Tutti i todo</h1>
+<ul *ngFor="let item of tutti">
+   <li>{{item.title}}--completato:{{item.completed}}</li>
+</ul>
+
+<div *ngIf="loading">
+    
+    <h2>Generazione contenuti...</h2>
+</div></div>

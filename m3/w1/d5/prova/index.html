@@ -47,8 +47,8 @@
   <script>
     const board_border = 'black';
     const board_background = "rgb(121, 139, 84)";
-    const snake_col = 'lightblue';
-    const snake_border = 'darkblue';
+    const snake_col = 'black';
+    const snake_border = 'black';
     
     let snake = [
       {x: 200, y: 200},
@@ -115,7 +115,7 @@
     }
 
     function drawFood() {
-      snakeboard_ctx.fillStyle = 'lightgreen';
+      snakeboard_ctx.fillStyle = 'black';
       snakeboard_ctx.strokestyle = 'darkgreen';
       snakeboard_ctx.fillRect(food_x, food_y, 10, 10);
       snakeboard_ctx.strokeRect(food_x, food_y, 10, 10);

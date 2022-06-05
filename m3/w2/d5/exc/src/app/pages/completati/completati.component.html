@@ -1,0 +1,17 @@
+<div class="flex">
+
+<h1>Completati</h1>
+
+<ul>
+    <app-list *ngFor="let i of completati" [i]="i">
+
+        <button (click)="modTodo(i)">Imposta come da completare</button>
+        <button class="elimina" (click)="eliminazioneTodo(i)">elimina</button>
+    </app-list>
+</ul>
+
+<div *ngIf="loading">
+    
+    <h2>Generazione contenuti...</h2>
+</div>
+</div>

@@ -1,0 +1,14 @@
+<button class="btn btn-primary" (click)="visibile=!visibile">aggiungi utente</button>
+<app-new-user *ngIf="visibile" (onManCreated)="aggiungiUomo($event)" (onWomanCreated)="aggiungiDonna($event)"></app-new-user>
+{{name}}{{lastname}}
+<table class="table">
+  <tr>
+    <th>Name</th>
+    <th>Lastname</th>
+    <th>Gender</th>
+  </tr>
+  <tr class="app-user" [user]="user" *ngFor="let user of users">
+    
+  <tr>
+</table>
+<router-outlet></router-outlet>

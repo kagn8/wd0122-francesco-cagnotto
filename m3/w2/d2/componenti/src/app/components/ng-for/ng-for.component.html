@@ -1,0 +1,8 @@
+<h1>numbers</h1>
+<ul>
+    <li *ngFor="let numero of numbers">{{numero}}</li>
+</ul>
+<h1>users</h1>
+<ul>
+    <li *ngFor=" let user of users; let i = index">-{{i+1}}- {{user.lastname}}, {{user.name}};</li>
+</ul>
