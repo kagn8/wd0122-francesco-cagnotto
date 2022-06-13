@@ -31,6 +31,7 @@ const pensionamento = (compleanno, nome) => {
     const eta = 2037 - compleanno;
     const anniPensione = 65 - eta;
     return `${nome} va in pensione tra ${anniPensione} anni`;
+    
 }
 
 console.log(pensionamento(1975, 'Marco'));
@@ -39,6 +40,7 @@ console.log(pensionamento(1980, 'Paolo'));
 
 function tagliaFette(torta) {
     return torta * 3;
+    
 }
 
 function scegliTorta(mela, arancia) {
@@ -54,5 +56,13 @@ console.log(scegliTorta(3, 5));
 const calcolaSpesa = function(conto) {
     return conto >= 50 && conto <= 300 ? conto * 0.15 : conto * 0.2;
 }
+
+function contoIva(c, i=10){
+    let iva = c*(i/100)
+    let ContoTot = c + iva
+    return ContoTot
+}
+
+console.log(contoIva(100));
 
 console.log(calcolaSpesa(320));

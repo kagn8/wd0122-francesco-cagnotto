@@ -103,3 +103,5 @@ console.log(auguri)
 
 let target = document.querySelector('#grazie')
 target.innerHTML = auguri;
+
+

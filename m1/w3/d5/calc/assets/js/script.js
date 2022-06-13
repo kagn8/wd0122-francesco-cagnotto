@@ -1,5 +1,6 @@
 function aggiungiNumero(bottone){
 
+    console.log(bottone);
     let numero = bottone.innerHTML;
 
     let display = document.querySelector('.display');
