@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 
 import { UpdatePostRoutingModule } from './update-post-routing.module';
 import { UpdatePostComponent } from './update-post.component';
+import { FormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -11,7 +12,8 @@ import { UpdatePostComponent } from './update-post.component';
   ],
   imports: [
     CommonModule,
-    UpdatePostRoutingModule
+    UpdatePostRoutingModule,
+    FormsModule
   ]
 })
 export class UpdatePostModule { }

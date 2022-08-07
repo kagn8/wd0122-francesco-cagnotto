@@ -28,6 +28,9 @@ export class HomePostComponent implements OnInit {
      res})
       setTimeout(()=>this.visualizzaPosts(),2000)
   }
-
+  aggiornaPost(id:number){
+    this.destinazione = `http://localhost:4201/posts/${id}`
+  }
+  destinazione:string=""
 }
 
