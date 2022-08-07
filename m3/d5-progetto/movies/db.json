@@ -1,5 +1,13 @@
 {
-  "users": [],
+  "users": [
+    {
+      "email": "cagnotto.f@gmail.com",
+      "password": "$2a$10$vK3QQ25Xm.rBSanKYwrVFeAgR3btkMHm2ozExMfaLX21Ayf9NBq4i",
+      "first_name": "Francesco",
+      "last_name": "Cagnotto",
+      "id": 1
+    }
+  ],
   "favorites": [],
   "movies": [
     {

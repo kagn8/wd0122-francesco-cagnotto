@@ -5,9 +5,15 @@ mat-toolbar{
     flex-direction: row;
     justify-content: space-between;
     color: white;
-    background-color: black;
+    background: rgb(204,65,203);
+    background: -moz-radial-gradient(circle, rgba(204,65,203,1) 0%, rgba(133,14,240,1) 100%);
+    background: -webkit-radial-gradient(circle, rgba(204,65,203,1) 0%, rgba(133,14,240,1) 100%);
+    background: radial-gradient(circle, rgba(204,65,203,1) 0%, rgba(133,14,240,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#cc41cb",endColorstr="#850ef0",GradientType=1);
     margin: 0 auto;
     position: relative;
+    -webkit-box-shadow: -1px 14px 15px 2px #000000; 
+    box-shadow: -1px 14px 15px 2px #000000;
 
     span{
         margin-left: 10%;
